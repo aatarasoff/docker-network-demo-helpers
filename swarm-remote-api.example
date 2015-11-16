@@ -1,0 +1,1 @@
+docker-machine ssh node1 curl -sS --insecure --cert $DOCKER_CERT_PATH/cert.pem --key $DOCKER_CERT_PATH/key.pem https://localhost:3376/containers/json
